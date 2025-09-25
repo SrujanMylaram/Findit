@@ -1,0 +1,30 @@
+.form-card {
+  max-width: 550px;
+  margin: auto;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.form-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+input:focus {
+  border-color: #198754 !important; /* Bootstrap success green */
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25) !important;
+}
+
+label {
+  font-size: 0.95rem;
+}
+
+.alert {
+  font-size: 0.9rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

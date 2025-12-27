@@ -38,7 +38,3 @@ Cleanly structured endpoints for all core operations
 MySQL used for structured and relational data storage
 
 Optimized SQL queries for fast data access and search performance
-
-📷 Screenshots
-
-(Add screenshots here if available – UI mockups, login page, search results, etc.)
